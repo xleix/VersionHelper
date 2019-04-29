@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="version_helper_colorPrimary">#3F51B5</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorPrimary">#11776A</color>-->
+    <!--&lt;!&ndash;<color name="colorPrimaryDark">#303F9F</color>&ndash;&gt;-->
+    <!--<color name="colorPrimaryDark">#11776A</color>-->
+    <!--<color name="primary_light">#C5CAE9</color>-->
+    <!--<color name="colorAccent">#11776A</color>-->
+    <!--&lt;!&ndash;<color name="colorAccent">#03A9F4</color>&ndash;&gt;-->
+    <!--<color name="primary_text">#212121</color>-->
+    <!--<color name="secondary_text">#757575</color>-->
+    <!--<color name="icons">#FFFFFF</color>-->
+    <!--<color name="divider">#BDBDBD</color>-->
+    <!--<color name="divider2">#f0f0f0</color>-->
+    <!--<color name="background_light">#DADADA</color>-->
+    <color name="version_helper_white">#FFFFFF</color>
+    <!--<color name="prjname">#89cac3</color>-->
+    <!--<color name="unselected_color">#80ffffff</color>-->
+    <!--<color name="navi_title">#252831</color>-->
+
+    <!--<color name="background">#65828e</color>-->
+    <!--<color name="main_color">#ff9a00</color>-->
+    <!--<color name="secondary_color">#BDBDBD</color>-->
+    <!--<color name="colorPrimaryalf">#ee11776A</color>-->
+
+    <color name="version_helper_bg_all">#F1F1F1</color>
+    <!--<color name="text_bg">#F0F0F0</color>-->
+    <!--<color name="vertical_line">#E6E6E6</color>-->
+    <!--<color name="item_bg">#E7E7E7</color>-->
+    <!--<color name="search_top_bg">#FAFAFA</color>-->
+
+    <!--<color name="chart_bg">#DADADA</color>-->
+    <!--<color name="chart_title_color">#F4F4F4</color>-->
+    <!--<color name="chart_title_line">#DDDDDD</color>-->
+
+    <!--<color name="new_add">#4AA673</color>-->
+    <!--<color name="new_reduce">#537990</color>-->
+    <!--<color name="new_normal">#EB934B</color>-->
+
+    <!--<color name="owner_all">#000000</color>-->
+    <!--<color name="owner_nosubmit">#f4b01f</color>-->
+    <!--<color name="owner_wait">#72a4ee</color>-->
+    <!--<color name="owner_reject">#c60000</color>-->
+    <!--<color name="owner_approved">#67ba35</color>-->
+    <!--<color name="owner_approve_new">#149fab</color>-->
+
+    <!--<color name="approval_nopass">#E64F44</color>-->
+    <!--<color name="approval_nopass_press">#e57373</color>-->
+    <!--<color name="dialog_edittext">#EDEDED</color>-->
+    <!--<color name="dialog_btn_gray">#5E5E5E</color>-->
+
+    <!--<color name="text_color">#373636</color>-->
+    <!--<color name="text_color2">#757575</color>-->
+    <!--<color name="button_color">#29857A</color>-->
+    <!--<color name="button_color_press">#26a69a</color>-->
+
+    <!--<color name="blue">#0000ff</color>-->
+    <!--<color name="transparent">#ffffffff</color>-->
+    <!--<color name="null_color">#00ffffff</color>-->
+    <!--<color name="elv_item_bg">#E7E7E7</color>-->
+    <!--<color name="elv_bg">#F6F6F6</color>-->
+
+    <color name="version_helper_red">#E53935</color>
+    <!--<color name="red_press">#EF9A9A</color>-->
+    <!--<color name="gray">#757575</color>-->
+    <!--<color name="gray2">#CDC9C9</color>-->
+    <!--<color name="line1">#CDC9C9</color>-->
+    <!--<color name="line2">#919191</color>-->
+
+    <!--<color name="select_picture">#C8DEDB</color>-->
+    <!--<color name="sub_title_color">#1D8376</color>-->
+
+    <!--<color name="divider_bg">#ffd8d8d8</color>-->
+    <!--<color name="title_text">#ff222222</color>-->
+
+    <!--<color name="level1">#f0f0f0</color>-->
+    <!--<color name="level2">#f4f4f4</color>-->
+    <!--<color name="black">#000</color>-->
+
+    <!--<drawable name="clr_normal">#ffffff</drawable>-->
+    <!--<drawable name="clr_pressed">#CDC9C9</drawable>-->
+
+    <!--<color name="query_info">#99000000</color>-->
+    <!--<color name="group_text">#5C9E94</color>-->
+    <!--<color name="child_bg">#f6f6f6</color>-->
+    <!--<color name="indicator">#616161</color>-->
+    <!--<color name="drag_bg">#55000000</color>-->
+
+    <!--&lt;!&ndash;<color name="progress_bg">#fff2c0</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="blue_pressed">#7cb342</color>&ndash;&gt;-->
+    <!--<color name="blue_normal">#47bde8</color>-->
+    <!--&lt;!&ndash;<color name="green_complete">#ff99cc00</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="purple_progress">#03a9f4</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="red_error">#ffff4444</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="holo_blue_bright">#ff00ddff</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="holo_green_light">#ff99cc00</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="holo_orange_light">#ffffbb33</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="holo_red_light">#ffff4444</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="gay_progress">#9e9e9e</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="theme_primary_text_inverted">#ffffff</color>&ndash;&gt;-->
+    <!--&lt;!&ndash;<color name="theme_secondary_text_inverted">#8affffff</color>&ndash;&gt;-->
+
+    <!--<color name="progress">#667bac9e</color>-->
+    <!--<color name="sprogress">#66F7FBFC</color>-->
+
+    <!--<color name="sub_text">#7bac9e</color>-->
+    <!--<color name="light_grey">#e7e7e7</color>-->
+    <!--<color name="text_unclick">#bfbfbf</color>-->
+
+    <!--<color name="menu_text_select">#54e5d2</color>-->
+</resources>
