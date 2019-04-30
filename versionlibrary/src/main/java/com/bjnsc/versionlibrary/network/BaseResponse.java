@@ -48,7 +48,6 @@ public class BaseResponse<T> implements Serializable {
      * @return 成功返回true, 失败返回false
      */
     public boolean isRequestSuccess() {
-//        return status == Ins.REQUEST_SUCCESS;
         return status.equals("OK");
     }
 

@@ -41,9 +41,9 @@
         android:layout_below="@+id/ll_title"
         android:layout_centerVertical="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>
-        <!--custom:progress_text_color="#3498DB"-->
-        <!--custom:progress_text_size="16sp" />-->
+        android:layout_marginRight="10dp"
+        custom:progress_text_color="@color/version_helper_colorPrimary"
+        custom:progress_text_size="16sp" />
 
     <TextView
         android:layout_below="@id/number_progress_bar"

@@ -53,29 +53,6 @@ public class BasicParamsInterceptor implements Interceptor {
         }
 
         Response response = chain.proceed(request);
-
-//        //只获取当前服务器的Cookie
-//        if (response.request().url().toString().contains(API.LOGIN)) {
-//
-//            boolean b = false;
-//            StringBuffer cookie = new StringBuffer();
-//            Headers headers = response.headers();
-//            for (int i = 0, count = headers.size(); i < count; i++) {
-//                if (headers.name(i).equals("set-cookie")) {
-//                    String value = headers.value(i);
-//                    cookie.append(value);
-//                    cookie.append("; ");
-//                    b = true;
-//                }
-//            }
-//
-//            if (b) {
-//                Ins.CookieID = cookie.toString().trim().substring(0, cookie.length() - 1);
-//            }
-//            Log.e("Token11111", Ins.CookieID);
-//        }
-
-//        return chain.proceed(request);
         return response;
     }
 

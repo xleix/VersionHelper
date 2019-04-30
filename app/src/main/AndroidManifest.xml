@@ -17,8 +17,8 @@
 
         <meta-data
             android:name="com.bjnsc.versionhelper"
-            android:value=""/>
-            <!--android:value="c6fa86f0-4ee7-11e9-8e7e-9326967da7de"/>-->
+            android:value="c6fa86f0-4ee7-11e9-8e7e-9326967da7de"/>
+            <!--android:value=""/>-->
 
         <activity android:name=".MainActivity">
             <intent-filter>

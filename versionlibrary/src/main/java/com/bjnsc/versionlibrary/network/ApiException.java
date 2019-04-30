@@ -18,7 +18,6 @@ public class ApiException extends RuntimeException {
      * @return 失效返回true, 否则返回false;
      */
     public boolean isTokenExpried() {
-//        return mErrorCode == Ins.REQUEST_FAILURE;
         return mErrorCode.equals("OK");
     }
 }
