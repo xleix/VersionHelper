@@ -49,6 +49,12 @@ helper.updateApp(new VersionHelper.CheckAppVersionListener() {
         });
 ```
 
+If you need to use hot fixes, you need to set `VersionHelper`
+
+```java
+helper.setNeedHotfix(true);
+helper.setHotfixVersionCode(hotfixVersionCode);
+```
 
 ## LICENSE
 
