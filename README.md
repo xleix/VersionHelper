@@ -27,7 +27,7 @@ Need to handle STORAGE read and write permissions yourself
 
 To begin using VersionHelper
 
-Configure appId in your Manifest.xml file
+Configure appId in your `Manifest.xml` file
 ```groovy
 <meta-data
     android:name="com.bjnsc.versionhelper"
