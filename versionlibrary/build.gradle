@@ -43,7 +43,7 @@ dependencies {
 def siteUrl = 'https://github.com/sample'      // 项目的主页
 def gitUrl = 'https://github.com/sample.git'   // Git仓库的url
 
-group = "com.bjnsc.versionhelp"            // Maven Group ID for the artifact，一般填你唯一的包名
+group = "com.bjnsc.versionlibrary"            // Maven Group ID for the artifact，一般填你唯一的包名
 
 install {
     repositories.mavenInstaller {
@@ -51,8 +51,9 @@ install {
             project {
                 packaging 'aar'
                 //项目的描述
-                groupId group
-
+                groupId 'com.bjnsc.versionlibrary'
+                artifactId 'versionhelp'
+                version version
                 name 'versionlibrary'
                 description 'a sample version helper libriry for Android.'
                 url siteUrl
@@ -63,14 +64,13 @@ install {
                         url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
                     }
                 }
-//                developers {
-//                    //开发者的基本信息，根据自己喜好填上就是
-//                    developer {
-//                        id ''
-//                        name ''
-//                        email ''
-//                    }
-//                }
+                developers {
+                    developer {
+                        id 'xlei'
+                        name 'xlei'
+                        email 'xlei@sample.com'
+                    }
+                }
                 scm {
                     connection gitUrl
                     developerConnection gitUrl
@@ -151,7 +151,7 @@ javadoc {
         encoding "UTF-8"
         charSet 'UTF-8'
         author true
-        version true
+        version version
         links "http://docs.oracle.com/javase/7/docs/api"
     }
 }
