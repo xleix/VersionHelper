@@ -1,4 +1,4 @@
-# VersionHelper ![1]![2]![3]
+# VersionHelper ![1] ![2] ![3]
 
 VersionHelper is a version update library for easier use when app updates
 
@@ -31,7 +31,7 @@ Configure appId in your Manifest.xml file
 ```groovy
 <meta-data
     android:name="com.bjnsc.versionhelper"
-    android:value="c6fa86f0-4ee7-11e9-8e7e-9326967da7de"/>
+    android:value="your appId"/>
 ```
 
 ```java
