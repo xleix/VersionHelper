@@ -33,17 +33,16 @@
             android:textSize="12sp" />
     </LinearLayout>
 
-    <com.daimajia.numberprogressbar.NumberProgressBar
+    <ProgressBar
         android:id="@+id/number_progress_bar"
-        style="@style/NumberProgressBar_Relax_Blue"
-        android:layout_width="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@+id/ll_title"
+        android:max="100"
         android:layout_centerVertical="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        custom:progress_text_color="@color/version_helper_colorPrimary"
-        custom:progress_text_size="16sp" />
+        android:layout_marginRight="10dp"/>
 
     <TextView
         android:layout_below="@id/number_progress_bar"

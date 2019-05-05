@@ -18,12 +18,12 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.bjnsc.versionlibrary.model.VersionCls;
 import com.bjnsc.versionlibrary.network.RetrofitHelper;
 import com.bjnsc.versionlibrary.network.callback.MyBaseObserver;
-import com.daimajia.numberprogressbar.NumberProgressBar;
 import com.flyco.animation.BounceEnter.BounceTopEnter;
 import com.flyco.dialog.listener.OnBtnClickL;
 import com.flyco.dialog.widget.NormalDialog;
@@ -376,7 +376,7 @@ public class VersionHelper {
     };
 
     private Dialog downloadDlg;
-    private NumberProgressBar down_numberProgressBar;
+    private ProgressBar down_numberProgressBar;
     private TextView down_tv_value;
 
     private void showDownloadDialog(int progress, int max) {
@@ -388,7 +388,7 @@ public class VersionHelper {
             downloadDlg.show();
             downloadDlg.getWindow().setContentView(view);
             downloadDlg.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM);
-            down_numberProgressBar = (NumberProgressBar) view.findViewById(R.id.number_progress_bar);
+            down_numberProgressBar = (ProgressBar) view.findViewById(R.id.number_progress_bar);
             down_tv_value = (TextView) view.findViewById(R.id.tv_value);
         }
         if (down_numberProgressBar != null) {

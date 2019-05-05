@@ -9,7 +9,7 @@ VersionHelper is installed by adding the following dependency to your `build.gra
 ```groovy
 dependencies {
     ...
-    implementation 'com.bjnsc.versionlibrary:versionlibrary:1.0.2'
+    implementation 'com.bjnsc.versionhelper:versionlibrary:1.0.0'
     
 }
 ```
